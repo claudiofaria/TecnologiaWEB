@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulário de presença</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Hello World!
+            </h1>
+
+        </header>
+        <div class='conteudo'>
+            <p>Chat Page <span class='especial'>20200304</span></p>
+            <p>
+            <form action='http://18.224.82.28:8080/chat/' method="POST">
+                    <label for="usuario">Esteve Presente?</label><br>
+                    <input type="radio" value="presente" name="presenca"/> Sim, estive.
+                    <input type="radio" value="ausente" name="presenca"/> Não, faltei.<br>
+                </p>
+                    <!-- <input id="usuario" type="text" name="usuario" size="30" maxlength="15" id="username"><br><br> -->
+                <p>
+                    <label for='texto'>Mensagem: </label><br>
+                    <textarea id='texto'name="texto"></textarea><br><br>
+                    <input type="submit" value="Send!">
+                </p>
+                <p>
+                    <label for="texto">Selecione: </label><br>
+                    <select name="" id="">
+                        <option value="faze">Opção1</option>
+                        <option value="uma">Opção2</option>
+                        <option value="sopa">Opção3</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" id="check" value="True">
+                    <label for="check">Opção1</label>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>

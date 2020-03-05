@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formulário de presença</title>
+    </head>
+    <body>
+        <header>
+            <h1>
+                Formulário de Presença
+            </h1>
+        </header>
+            <form action='http://18.224.82.28:8080/claudioaugustodefariatoledo/' method="POST">
+                <p>
+                    <label for="presenca">Esteve Presente?</label><br>
+                    <input type="radio" value="presente" name="presenca"/> Sim, estive.
+                    <input type="radio" value="ausente" name="presenca"/> Não, faltei.<br>
+                </p>
+                <p>
+                    <label for="pergunta">Como funciona o atributo name em um radio button? Como o value é utilizado em um radio button?</label><br>
+                    <input id="pergunta" type="text" name="pergunta" id="pergunta"><br>
+                </p>
+                <p>
+                    <label for='comentario'>Comentário: </label><br>
+                    <textarea id='comentario'name="comentario"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </form>
+    </body>
+</html>
